@@ -1,0 +1,36 @@
+Player/Member Registration - Name,Age,Reg.No.,address
+Games - indoor , outdoor
+Matches/Tournament - Date,levels
+Membership plans - Weekly, Monthly, Short_term
+Teams- noOfPlayers, gameName
+
+
+Static valued - Reg. No., Name
+
+Dynamic valued  - Age, Contact number , Date,address, gameName
+
+Atomic valued  - tournament_levels, Date, Age, address                
+
+Composite valued - Games, tournaments, gameName
+
+Single valued -  Name, Reg.No
+
+Multi valued - Email , Contact number , Membership plans, games
+
+
+//Inheritence property:
+class Games- super class
+class Games extends IndoorGames,OutdoorGames - sub classes
+
+
+
+//Polymorphic behaviour:
+Games ig = new IndoorGames();
+ig object of super class -->refers to the sub class IndoorGames. 
+Games og = new OutdoorGames(); 
+og object of super class -->refers to the sub class OutdoorGames. 
+
+
+
+class Player - super class
+ 
